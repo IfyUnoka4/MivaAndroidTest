@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Miva Android Test</string>
+    <string name="dashboard_search">What would you like to learn?</string>
+    <string name="notifications">Notifications</string>
+    <string name="ad_carousel">Ad Carousel</string>
+    <string name="back">back</string>
+    <string name="resume">resume play</string>
+    <string name="subject_icon">Subject icon</string>
+    <string name="search_for_a_lesson">Search for a lesson or topic</string>
+    <string name="chapters_lessons">%d chapters / %d lessons</string>
+    <string name="chapters">Chapters</string>
+    <string name="ss3_waec">SS3/WAEC ▼</string>
+    <string name="biology">Biology</string>
+    <string name="toggle_fullscreen">Toggle Fullscreen</string>
+    <string name="add_bookmark">Add Bookmark</string>
+    <string name="enter_note">Enter note</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="share">share</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="chapter_1">CHAPTER 1</string>
+    <string name="you_ve_watched_0_of_5_lessons">You’ve watched 0 of 5 lessons</string>
+    <string name="play_video">Play Video</string>
+    <string name="download">Download</string>
+</resources>
