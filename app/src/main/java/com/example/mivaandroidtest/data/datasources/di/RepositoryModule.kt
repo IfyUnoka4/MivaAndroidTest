@@ -2,7 +2,7 @@ package com.example.mivaandroidtest.data.datasources.di
 
 
 import com.example.mivaandroidtest.data.repository.ChapterRepositoryImpl
-import com.example.mivaandroidtest.domain.ChapterRepository
+import com.example.mivaandroidtest.domain.repository.ChapterRepository
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn

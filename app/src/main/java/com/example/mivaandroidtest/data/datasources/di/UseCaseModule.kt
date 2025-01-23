@@ -1,6 +1,6 @@
 package com.example.mivaandroidtest.data.datasources.di
 
-import com.example.mivaandroidtest.domain.ChapterRepository
+import com.example.mivaandroidtest.domain.repository.ChapterRepository
 import com.example.mivaandroidtest.domain.usecase.GetChapterUseCase
 import com.example.mivaandroidtest.domain.usecase.GetChapterUseCaseImpl
 import dagger.Module

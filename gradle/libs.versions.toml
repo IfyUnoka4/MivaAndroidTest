@@ -25,6 +25,11 @@ moshi_converter_version = "2.9.0"
 moshi_version = "1.13.0"
 room = "2.5.2"
 codegen_version = "1.13.0"
+serialization_version = "1.5.0"
+mockk = "1.13.5"
+mockito-core = "4.0.0"
+mockito-inline = "3.8.0"
+mockito-kotlin = "4.0.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -66,6 +71,13 @@ room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "
 room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
 room-testing = { group = "androidx.room", name = "room-testing", version.ref = "room" }
 codegen = {group = "com.squareup.moshi", name = "moshi-kotlin-codegen", version.ref = "codegen_version"}
+kotlinx-serialization = {group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "serialization_version"}
+kotlinx-core-serialization = {group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-core", version.ref = "serialization_version"}
+mockitoCore = { module = "org.mockito:mockito-core", version.ref = "mockito-core" }
+mockitoInline = { module = "org.mockito:mockito-inline", version.ref = "mockito-inline" }
+mockitoKotlin = { module = "org.mockito.kotlin:mockito-kotlin", version.ref = "mockito-kotlin" }
+mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
+mockk-android = { module = "io.mockk:mockk-android", version.ref = "mockk" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

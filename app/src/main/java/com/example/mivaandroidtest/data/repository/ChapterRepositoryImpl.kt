@@ -4,7 +4,7 @@ import com.example.mivaandroidtest.data.ApiService
 import com.example.mivaandroidtest.data.datasources.cache.MivaChapter
 import com.example.mivaandroidtest.data.datasources.cache.dao.ChaptersDao
 import com.example.mivaandroidtest.data.datasources.remote.model.Chapter
-import com.example.mivaandroidtest.domain.ChapterRepository
+import com.example.mivaandroidtest.domain.repository.ChapterRepository
 import com.example.mivaandroidtest.utils.Resource
 import com.example.mivaandroidtest.utils.safeApiCall
 import kotlinx.coroutines.flow.Flow

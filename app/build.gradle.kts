@@ -91,8 +91,12 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.0")
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-core:1.5.0")
+    implementation(libs.kotlinx.serialization)
+    implementation(libs.kotlinx.core.serialization)
+    testImplementation(libs.mockk)
+    testImplementation(libs.mockitoCore)
+    testImplementation(libs.mockitoKotlin)
+    testImplementation(libs.mockitoInline)
 
     //room
     implementation(libs.room.runtime)

@@ -1,4 +1,4 @@
-package com.example.mivaandroidtest.domain
+package com.example.mivaandroidtest.domain.repository
 
 import com.example.mivaandroidtest.data.datasources.remote.model.Chapter
 import com.example.mivaandroidtest.utils.Resource

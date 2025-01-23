@@ -37,9 +37,11 @@ import com.example.mivaandroidtest.ui.theme.TextBlack50
 fun SubjectChaptersCard(modifier: Modifier = Modifier, chapter: MivaChapter) {
     Card(modifier = modifier
         .fillMaxWidth()
+        .padding(Dimens.space8)
         .background(Color.White, RoundedCornerShape(Dimens.space12)),
         colors = CardDefaults.cardColors(containerColor = Color.White),
-        elevation = CardDefaults.cardElevation(2.dp)) {
+        elevation = CardDefaults.cardElevation(2.dp))
+    {
         Row(verticalAlignment = Alignment.CenterVertically, modifier = modifier.padding(Dimens.space12)) {
             Image(
                 id = R.drawable.maths,
