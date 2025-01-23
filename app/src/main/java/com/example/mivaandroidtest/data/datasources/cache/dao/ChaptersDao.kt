@@ -11,9 +11,9 @@ import com.example.mivaandroidtest.data.datasources.remote.model.Chapter
 @Dao
 interface ChaptersDao {
     @Transaction
-    suspend fun updateChapters(user: List<MivaChapter>) {
+    suspend fun updateChapters(chapter: List<MivaChapter>) {
         clearAllChapters()
-        insertChapter(user)
+        insertChapter(chapter)
     }
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
